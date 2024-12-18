@@ -1,0 +1,29 @@
+﻿
+CVD //Cantidad venta diaria
+TE  //Tiempo de Envio
+CTE //Consumo en tiempo de envio
+FS  //Fecha de solicitud
+CDI //Cantidad disponible inventario
+TV  //Total vendido(Total vendido hasta la fecha de solicitud).
+TEV //Tiempo estimado de vigencia(tiempo estimado de productos en Stock).
+FPC //Fecha de peticion para compra.
+PCR //Porciento cantidad de resguardo(cantidad adicional para prevenir aunmento de consumo).
+PMI //Porciento minimo de inventario.
+
+
+
+
+LISTA:
+*-FACTURACION.
+*-Pensar que se va hacer con la edicion y eliminacion(ANULADO) de registro de pagos.
+*-HACER REPORTE DE CLIENTE, PROVEEDORES.
+*-MANEJO DE EFECTIVO EN BANCO.
+*-AGREGAR EL ATRIBUTO MARCA DE PRODUCTO Y CODIGO DE BARRA A LA TABLA PRODUCTO.
+
+*-LIMITE DE CREDITO A CLIENTES.
+
+-Editar Factura.
+
+NOTA IMPORTANTE: CUANDO SE MODIFICA UNA FACTURA EL NCF QUEDA EN EL ARIE, SE ESTIMA QUE ES MEJOR NO PERMITIR QUE SE MODIFIQUE LA FORMA DE PAGO.
+
+

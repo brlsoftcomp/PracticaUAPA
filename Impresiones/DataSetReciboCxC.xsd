@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetReciboCxC" targetNamespace="http://tempuri.org/DataSetReciboCxC.xsd" xmlns:mstns="http://tempuri.org/DataSetReciboCxC.xsd" xmlns="http://tempuri.org/DataSetReciboCxC.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetReciboCxC" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetReciboCxC" msprop:Generator_UserDSName="DataSetReciboCxC">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TblReciboCxC" msprop:Generator_TableClassName="TblReciboCxCDataTable" msprop:Generator_TableVarName="tableTblReciboCxC" msprop:Generator_TablePropName="TblReciboCxC" msprop:Generator_RowDeletingName="TblReciboCxCRowDeleting" msprop:Generator_RowChangingName="TblReciboCxCRowChanging" msprop:Generator_RowEvHandlerName="TblReciboCxCRowChangeEventHandler" msprop:Generator_RowDeletedName="TblReciboCxCRowDeleted" msprop:Generator_UserTableName="TblReciboCxC" msprop:Generator_RowChangedName="TblReciboCxCRowChanged" msprop:Generator_RowEvArgName="TblReciboCxCRowChangeEvent" msprop:Generator_RowClassName="TblReciboCxCRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdCobro" msprop:Generator_ColumnVarNameInTable="columnIdCobro" msprop:Generator_ColumnPropNameInRow="IdCobro" msprop:Generator_ColumnPropNameInTable="IdCobroColumn" msprop:Generator_UserColumnName="IdCobro" type="xs:string" minOccurs="0" />
+              <xs:element name="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_UserColumnName="Fecha" type="xs:string" minOccurs="0" />
+              <xs:element name="ClienteNombre" msprop:Generator_ColumnVarNameInTable="columnClienteNombre" msprop:Generator_ColumnPropNameInRow="ClienteNombre" msprop:Generator_ColumnPropNameInTable="ClienteNombreColumn" msprop:Generator_UserColumnName="ClienteNombre" type="xs:string" minOccurs="0" />
+              <xs:element name="Abono" msprop:Generator_ColumnVarNameInTable="columnAbono" msprop:Generator_ColumnPropNameInRow="Abono" msprop:Generator_ColumnPropNameInTable="AbonoColumn" msprop:Generator_UserColumnName="Abono" type="xs:string" minOccurs="0" />
+              <xs:element name="Balance" msprop:Generator_ColumnVarNameInTable="columnBalance" msprop:Generator_ColumnPropNameInRow="Balance" msprop:Generator_ColumnPropNameInTable="BalanceColumn" msprop:Generator_UserColumnName="Balance" type="xs:string" minOccurs="0" />
+              <xs:element name="NoFactura" msprop:Generator_ColumnVarNameInTable="columnNoFactura" msprop:Generator_ColumnPropNameInRow="NoFactura" msprop:Generator_ColumnPropNameInTable="NoFacturaColumn" msprop:Generator_UserColumnName="NoFactura" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TblPago" msprop:Generator_TableClassName="TblPagoDataTable" msprop:Generator_TableVarName="tableTblPago" msprop:Generator_TablePropName="TblPago" msprop:Generator_RowDeletingName="TblPagoRowDeleting" msprop:Generator_RowChangingName="TblPagoRowChanging" msprop:Generator_RowEvHandlerName="TblPagoRowChangeEventHandler" msprop:Generator_RowDeletedName="TblPagoRowDeleted" msprop:Generator_UserTableName="TblPago" msprop:Generator_RowChangedName="TblPagoRowChanged" msprop:Generator_RowEvArgName="TblPagoRowChangeEvent" msprop:Generator_RowClassName="TblPagoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdPago" msdata:Caption="IdCobro" msprop:Generator_ColumnVarNameInTable="columnIdPago" msprop:Generator_ColumnPropNameInRow="IdPago" msprop:Generator_ColumnPropNameInTable="IdPagoColumn" msprop:Generator_UserColumnName="IdPago" type="xs:string" minOccurs="0" />
+              <xs:element name="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_UserColumnName="Fecha" type="xs:string" minOccurs="0" />
+              <xs:element name="Acreedor" msdata:Caption="ClienteNombre" msprop:Generator_ColumnVarNameInTable="columnAcreedor" msprop:Generator_ColumnPropNameInRow="Acreedor" msprop:Generator_ColumnPropNameInTable="AcreedorColumn" msprop:Generator_UserColumnName="Acreedor" type="xs:string" minOccurs="0" />
+              <xs:element name="PagoCaja" msdata:Caption="Abono" msprop:Generator_ColumnVarNameInTable="columnPagoCaja" msprop:Generator_ColumnPropNameInRow="PagoCaja" msprop:Generator_ColumnPropNameInTable="PagoCajaColumn" msprop:Generator_UserColumnName="PagoCaja" type="xs:string" minOccurs="0" />
+              <xs:element name="Balance" msprop:Generator_ColumnVarNameInTable="columnBalance" msprop:Generator_ColumnPropNameInRow="Balance" msprop:Generator_ColumnPropNameInTable="BalanceColumn" msprop:Generator_UserColumnName="Balance" type="xs:string" minOccurs="0" />
+              <xs:element name="NoFactura" msdata:Caption="IdFactura" msprop:Generator_ColumnVarNameInTable="columnNoFactura" msprop:Generator_ColumnPropNameInRow="NoFactura" msprop:Generator_ColumnPropNameInTable="NoFacturaColumn" msprop:Generator_UserColumnName="NoFactura" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
